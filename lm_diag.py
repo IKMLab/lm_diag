@@ -105,8 +105,7 @@ class Evaluate:
             y = [target_prob] * m
             plt.plot(x, y, 'g--')
 
-        plt.xticks([], [])
-        plt.xlabel('Token')
+        plt.xlabel('Token Rank (non-zero probs, 3 d.p.)')
         plt.ylabel('Prob')
         plt.show()
 
